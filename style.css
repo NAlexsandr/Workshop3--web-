@@ -1,0 +1,78 @@
+@font-face {
+  font-family: 'Gilroy-Bold';
+  src: url(./fonts/Gilroy-Bold.woff2);
+}
+@font-face {
+  font-family: 'Gilroy-Medium';
+  src: url(./fonts/Gilroy-Medium.woff2);
+}
+@font-face {
+  font-family: 'Gilroy-Regular';
+  src: url(./fonts/Gilroy-Regular.woff2);
+}
+@font-face {
+  font-family: 'Gilroy-Semibold';
+  src: url(./fonts/Gilroy-Semibold.woff2);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: 0;
+}
+body {
+  scroll-behavior: smooth;
+  background: #FFFFFF;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+button {
+  color: #FFFFFF;
+  font-family: Gilroy-Bold;
+  font-size: 15px;
+  line-height: 117%;
+}
+.header {
+  padding: 10px 10px;
+  margin-bottom: 64px;
+}
+.main {
+  margin-bottom: 162px;
+}
+.mainContent1 {
+  margin-bottom: 17px;
+}
+.mainContent2 {
+  margin-bottom: 37px;
+}
+.footer {
+  margin-bottom: 96px;
+}
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+.button {
+  border: none;
+  cursor: pointer;
+  padding: 15px 35px;
+}
+.button1 {
+  background: rgba(242, 88, 34, 1);
+  border-radius: 50px 50px;
+}
+.button2 {
+  background: #FFFFFF;
+  color: rgba(170, 170, 170, 1);
+}
+.navigation {
+}
+.navigation a {
+  font-family: Gilroy-SemiBold;
+  font-size: 14px;
+}
+.navigationColor {
+  color: #f10707;
+}
