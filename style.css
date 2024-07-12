@@ -37,8 +37,6 @@ button {
   padding: 10px 10px;
   margin-top: 40px;
   margin-bottom: 84px;
-}
-.header_top {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -46,14 +44,18 @@ button {
 .header__left {
   display: flex;
   justify-content: left;
+  margin-top: 40px;
+  margin-bottom: 84px;
 }
 .header__right {
   display: flex;
   justify-content: space-between;
   width: 533px;
+  margin-top: 25px;
+  margin-bottom: 84px;
 }
 .main {
-  margin-bottom: 162px;
+  margin-bottom: 100px;
 }
 .mainContent {
   display: flex;
@@ -71,9 +73,6 @@ button {
 }
 .mainContent__rightSide {
   max-width: 545px;
-}
-.footer {
-  margin-bottom: 96px;
 }
 .container {
   max-width: 1170px;
@@ -109,4 +108,106 @@ button {
   display: flex;
   justify-content: center;
   gap: 48px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.cardList1 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 96px;
+  gap: 61px;
+}
+.card1 {
+  padding: 40px 34px;
+  width: 378px;
+  height: 310px;
+  gap: 25px;
+  padding: 40px 30px;
+}
+.card1 p {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #666;
+  margin-bottom: 25px;
+  }
+.card1 img {
+margin-bottom: 25px;
+}
+.card1 button {
+  border: none;
+  cursor: pointer;
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 150%;
+  color: #000;
+  background: #FFFFFF;
+}
+.card1 h1 {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 24px;
+  color: #000;
+  margin-bottom: 18px;
+}
+.card1_center {
+  background-color: #FFFFFF;
+  box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+}
+.cardList2 {
+  background: #fafafa;
+  margin-bottom: 100px;
+}
+.card2 {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.card2_top {
+  margin-bottom: 48px;
+}
+.card2_top h1 {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 120%;
+  text-align: center;
+  color: #000;
+}
+.card2_top p {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  text-align: center;
+  color: #888;
+}
+.card2_bottom {
+  text-align: center;
+  padding: 0px 34px 34px 34px;
+  background: #FFFFFF;
+}
+.card2_bottom img {
+  margin-bottom: 32px;
+}
+.card2_bottom h3 {
+  margin-bottom: 32px;
+}
+.card2_bottom p {
+  margin-bottom: 24px;
+}
+.card2_bottom  button {
+  border: none;
+  cursor: pointer;
+  margin-bottom: 34px;
+  border-radius: 56px;
+  padding: 16px 32px;
+  box-shadow: 4px 4px 8px 0 rgba(242, 88, 34, 0.2);
+  background: #f25822;
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 16px;
+  color: #fff;
 }
