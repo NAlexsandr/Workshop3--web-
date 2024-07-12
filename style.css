@@ -134,6 +134,7 @@ button {
   }
 .card1 img {
 margin-bottom: 25px;
+
 }
 .card1 button {
   border: none;
@@ -159,6 +160,7 @@ margin-bottom: 25px;
 .cardList2 {
   background: #fafafa;
   margin-bottom: 100px;
+  padding: 0px 0px 100px 0px;
 }
 .card2 {
   display: flex;
